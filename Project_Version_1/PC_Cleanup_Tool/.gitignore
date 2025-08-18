@@ -1,0 +1,104 @@
+# PC Cleanup Tool - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific
+# Log files
+*.log
+logs/
+PC_Cleanup_Logs/
+PC_Cleanup_V2_Logs/
+
+# Report files
+PC_Cleanup_Reports/
+PC_Cleanup_V2_Reports/
+*.html
+*.json
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.msi
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Configuration files with sensitive data
+config.ini
+settings.json
+branding_custom.json
+
+# Windows specific
+desktop.ini
+$RECYCLE.BIN/

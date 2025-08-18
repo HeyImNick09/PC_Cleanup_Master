@@ -1,0 +1,28 @@
+# PC Cleanup & Optimization Tool - Dependencies
+# Professional-grade system maintenance utility
+
+# Core dependencies
+pathlib2>=2.3.7  # Enhanced path handling for older Python versions
+psutil>=5.9.0    # System and process utilities
+winshell>=0.6    # Windows shell operations
+pywin32>=306     # Windows API access
+wmi>=1.5.1       # Windows Management Instrumentation
+
+# GUI Framework (will be added in later steps)
+# tkinter is built-in to Python
+# For advanced UI: PyQt5>=5.15.0 or customtkinter>=5.0.0
+
+# Packaging and distribution
+pyinstaller>=5.0  # Create standalone executables
+setuptools>=65.0  # Package building
+wheel>=0.38.0     # Wheel format support
+
+# Development and testing
+pytest>=7.0.0     # Testing framework
+black>=22.0.0     # Code formatting
+flake8>=5.0.0     # Code linting
+
+# Optional enterprise features
+schedule>=1.2.0   # Task scheduling
+configparser>=5.3.0  # Configuration management
+cryptography>=3.4.8  # Secure operations

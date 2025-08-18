@@ -1,0 +1,34 @@
+# PC Cleanup Tool Version 2 - Enhanced Dependencies
+# Professional Windows System Optimization Tool
+
+# Core Dependencies
+psutil>=5.9.0              # System and process utilities
+pywin32>=306               # Windows API access
+wmi>=1.5.1                 # Windows Management Instrumentation
+winshell>=0.6              # Windows shell operations
+
+# GUI Framework (Built-in with Python)
+# tkinter - Included with Python standard library
+
+# Optional Enterprise Features
+# These can be installed for enhanced functionality
+# pip install pyinstaller>=5.0  # For building executables
+# pip install pillow>=9.0       # For advanced image handling
+# pip install requests>=2.28    # For online features (if needed)
+
+# Development Dependencies (Optional)
+# pytest>=7.0               # For testing
+# black>=22.0               # Code formatting
+# flake8>=5.0               # Code linting
+
+# Version 2 Specific Requirements
+# dataclasses - Included in Python 3.7+
+# threading - Included with Python standard library
+# json - Included with Python standard library
+# pathlib - Included with Python standard library
+# datetime - Included with Python standard library
+
+# Minimum Python Version: 3.8+
+# Recommended Python Version: 3.10+
+# Operating System: Windows 10/11
+# Architecture: x64 (recommended), x86 (supported)
