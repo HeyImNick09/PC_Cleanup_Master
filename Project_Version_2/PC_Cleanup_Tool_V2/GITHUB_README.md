@@ -12,8 +12,8 @@
 ### Version 2 (Recommended) - One-Click Operation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/pc-cleanup-tool.git
-cd pc-cleanup-tool
+git clone https://github.com/HeyImNick09/PC_Cleanup_Master.git
+cd PC_Cleanup_Master/Project_Version_2/PC_Cleanup_Tool_V2
 
 # Install dependencies
 pip install -r v2_requirements.txt
