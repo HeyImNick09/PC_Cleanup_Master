@@ -6,7 +6,7 @@ Professional Windows PC Cleanup & Optimization tool, tracked across versions.
 - Project_Version_2/PC_Cleanup_Tool_V2 — Modern UI, one‑click cleanup, before/after reporting
 
 ## Quick Start (V2)
-```bash
+`bash
 git clone [https://github.com/HeyImNick09/PC_Cleanup_Master.git](https://github.com/HeyImNick09/PC_Cleanup_Master.git)
 cd PC_Cleanup_Master/Project_Version_2/PC_Cleanup_Tool_V2
 pip install -r v2_requirements.txt
